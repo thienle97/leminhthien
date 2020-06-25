@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4575188-0c8a-4626-9387-09eef6ed6254" name="Default Changelist" comment="" />
+    <list default="true" id="4f8f5553-9bff-4fc8-b672-1f1090ee62ce" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +14,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1dnhrVeOcD8TzonwxPMMbIUiESf" />
+  <component name="ProjectId" id="1diKfev1H0fIZ98S1PGrRZ1HMI3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,7 +24,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="531" y="113" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592903146646">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="531" y="113" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1592903146646" />
   </component>
 </project>

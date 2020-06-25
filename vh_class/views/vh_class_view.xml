@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id = "view_vh_class_tree" models = "ir.ui.view">
         <field name = "name">view.vh.class.tree</field>
@@ -12,7 +11,7 @@
     </record>
 
     <record id = "view_vh_class_form" models = "ir.ui.view">
-        <field name = "name">view.vh.class.form</field>
+        <field name = "name">view_vh_class_form</field>
         <field name = "model">vh.class</field>
         <field name = "arch" type = "xml">
             <form string = "Deparment">
