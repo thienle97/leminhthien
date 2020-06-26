@@ -11,7 +11,7 @@
     </record>
 
     <record id = "view_vh_class_form" models = "ir.ui.view">
-        <field name = "name">view_vh_class_form</field>
+        <field name = "name">view.vh.class.form</field>
         <field name = "model">vh.class</field>
         <field name = "arch" type = "xml">
             <form string = "Deparment">
