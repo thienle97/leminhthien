@@ -1,0 +1,39 @@
+<?xml version= "1.0" encoding ="utf - 8"?>
+<odoo>
+
+    <record id ="view_vh_class_fix_tree" model = "ir.ui.view">
+        <field name = "name"> view.vh.class.fix.tree</field>
+        <field name="model">vh.class.fix</field>
+        <field name="arch" type ="xml">
+            <tree string = "Deparment">
+                <field name="name"/>
+                <field name="soluong"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id ="view_vh_class_fix_form" model = "ir.ui.view">
+        <field name = "name"> view.vh.class.fix.form</field>
+        <field name="model">vh.class.fix</field>
+        <field name="arch" type ="xml">
+            <form string = "Deparment">
+                <field name="name"/>
+                <field name="soluong"/>
+            </form>
+        </field>
+    </record>
+
+    <record id ="action_vh_class_fix" model = "ir.ui.view">
+        <field name = "name"> Class Room</field>
+        <field name="res_model">vh.class.fix</field>
+        <field name="view_model">tree,from</field>
+        <field name="help" type ="html">
+            <p class = "o_view_nocontent_smiling_face">
+                Creat a new record
+            </p>
+        </field>
+    </record>
+
+    <menuitem id = "menu_vh_class_fix_root" name = "Menu Class" sequence = "0"/>
+    <menuitem id="menu_vh_class_fix_root1" parent = "menu_vh_class_fix_root" action = "action_vh_class_fix"/>
+</odoo>
