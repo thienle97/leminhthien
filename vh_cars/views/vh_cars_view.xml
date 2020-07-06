@@ -1,0 +1,39 @@
+<?xml version ="1.0" encoding = "utf-8"?>
+<odoo>
+
+    <record id="view_vh_cars_tree" model="ir.ui.view">
+        <field name="name">view.vh.cars.tree</field>
+        <field name="model">vh.cars</field>
+        <field name="arch" type="xml">
+            <tree string="CardLMT" >
+                <field name="name" />
+                <field name="color" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_vh_cars_form" model="ir.ui.view">
+        <field name="name">view.vh.cars.form</field>
+        <field name="model">vh.cars</field>
+        <field name="arch" type="xml">
+            <form string="CarsLMT" >
+                <field name="name" />
+                <field name="color" />
+            </form>
+        </field>
+    </record>
+
+    <record id="action_vh_cars" model="ir.actions.act_window">
+        <field name="name">Cars Of LMT</field>
+        <field name="res_model">vh.cars</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new record
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_vh_cars_root" name="Cars Show" sequence="0" />
+    <menuitem id="menu_vh_cars_root1" sequence="1" parent="menu_vh_cars_root" action="action_vh_cars"/>
+</odoo>
